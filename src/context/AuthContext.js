@@ -7,7 +7,7 @@ const AuthContext = React.createContext();
 export const AuthProvider = ({ children }) => {
 
     const [isLoggedIn, setIsLoggedIn] = useState(false);
-    const [error, setError] = useState('');
+    const [error] = useState('');
 
     const handleLogin = (formData) => {
         const storedUserData = JSON.parse(localStorage.getItem('formData'));

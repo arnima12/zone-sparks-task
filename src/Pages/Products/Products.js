@@ -83,7 +83,7 @@ const Products = () => {
     };
 
     return (
-        <div>
+        <div className="container mx-auto px-4 sm:px-5 md:px-10 lg:px-20">
             <div>
                 <div className="flex justify-center my-8">
                     <input type="text" placeholder="Search products" className="input input-primary" value={searchQuery} onChange={handleSearchInputChange} />
@@ -116,7 +116,7 @@ const Products = () => {
                 <div className="container px-4 sm:px-5 md:px-10 lg:px-16 my-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto mt-8 gap-8">
                     {filteredProducts.map(product => (
                         <li className="list-none" key={product.id}>
-                            <h2 className="text-2xl font-bold h-24">{product.title}</h2>
+                            <h2 className="text-2xl font-bold h-36">{product.title}</h2>
                             <h3 className="text-xl font-semibold">{product.category.cat}</h3>
                             <h3 className="text-xl font-medium">{product.category.sub}</h3>
                             <h3>{product.brand.title}</h3>
