@@ -128,7 +128,10 @@ const Products = () => {
                         </li>
                     ))}
                 </div>
-                {loading && <p>Loading...</p>}
+                {loading &&
+                    <div className="flex justify-center">
+                        <span className="loading loading-spinner loading-lg flex justify-center"></span>
+                    </div>}
                 {!loading && pages > 1 && (
                     <div className="join my-8 flex justify-center">
                         {[...Array(pages).keys()].map((pageNumber) => (
