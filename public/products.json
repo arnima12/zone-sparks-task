@@ -1,0 +1,102 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Product 1",
+            "slug": "product-1",
+            "images": [
+                {
+                    "thumb": "relative_url_to_image1",
+                    "variant_id": 1
+                },
+                {
+                    "thumb": "relative_url_to_image2",
+                    "variant_id": 2
+                }
+            ],
+            "category": {
+                "cat": "Category 1",
+                "cat_slug": "category-1",
+                "sub": "Subcategory 1",
+                "sub_slug": "subcategory-1",
+                "imd": "Immediate Category 1",
+                "imd_slug": "immediate-category-1"
+            },
+            "brand": {
+                "title": "Brand 1",
+                "slug": "brand-1"
+            },
+            "variants": [
+                {
+                    "code": "variant-code-1",
+                    "size": "Medium",
+                    "color": "Blue",
+                    "image": 1,
+                    "stock": 10
+                },
+                {
+                    "code": "variant-code-2",
+                    "size": "Large",
+                    "color": "Red",
+                    "image": 2,
+                    "stock": 5
+                }
+            ],
+            "selling_price": 100.00,
+            "marked_price": 120.00,
+            "num_reviews": 10,
+            "rating": 4.5,
+            "new_arrival": true
+        },
+        {
+            "id": 2,
+            "title": "Product 2",
+            "slug": "product-2",
+            "images": [
+                {
+                    "thumb": "relative_url_to_image3",
+                    "variant_id": 3
+                },
+                {
+                    "thumb": "relative_url_to_image4",
+                    "variant_id": 4
+                }
+            ],
+            "category": {
+                "cat": "Category 2",
+                "cat_slug": "category-2",
+                "sub": "Subcategory 2",
+                "sub_slug": "subcategory-2",
+                "imd": "Immediate Category 2",
+                "imd_slug": "immediate-category-2"
+            },
+            "brand": {
+                "title": "Brand 2",
+                "slug": "brand-2"
+            },
+            "variants": [
+                {
+                    "code": "variant-code-3",
+                    "size": "Small",
+                    "color": "Green",
+                    "image": 3,
+                    "stock": 15
+                },
+                {
+                    "code": "variant-code-4",
+                    "size": "Extra Large",
+                    "color": "Black",
+                    "image": 4,
+                    "stock": 8
+                }
+            ],
+            "selling_price": 150.00,
+            "marked_price": 180.00,
+            "num_reviews": 8,
+            "rating": 4.0,
+            "new_arrival": false
+        }
+    ],
+    "page": 1,
+    "pages": 2
+}
